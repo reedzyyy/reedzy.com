@@ -1,46 +1,35 @@
+/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #6cb6f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #3795ff;
+  color: #333;
 }
 
 header {
-    background-color: #16354e;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background: #1a3c62;
+  color: white;
+  padding: 1em;
+  text-align: center;
 }
 
 nav a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
 }
 
 main {
-    padding: 20px;
+  padding: 2em;
+}
+
+.video {
+  margin-bottom: 2em;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #ddd;
-}
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    background: #000;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1em;
 }
